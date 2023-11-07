@@ -1,0 +1,249 @@
+/*
+RESET
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+GENERAL
+*/
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.container2 {
+max-width: 800px;
+margin: 0 auto;
+}
+
+.riga {
+    display: flex;
+    flex-wrap: wrap;
+}
+.collonna-1 {
+    width: calc((100%/6)*1);
+}
+.collonna-2 {
+    width: calc((100%/6)*4);
+}
+.collonna-3 {
+    width: calc((100%/6)*1);
+}
+.collonna-4 {
+    width: calc((100%/5)*2);
+}
+.collonna-5 {
+    width:  calc((100%/5)*3);
+}
+.collonna-6 {
+    width:  calc((100%/5)*3);
+}
+.collonna-7 {
+    width:  calc((100%/5)*2);
+}
+.collonna-8 {
+    width:  calc((100%/4)*2);
+}
+.collonna-9 {
+    width:  calc((100%/4)*2);
+}
+.collonna-10 {
+    width: calc((100%/4)*1);
+}
+.collonna-11 {
+    width: calc((100%/4)*3);
+}
+.collonna-12 {
+    width: calc((100%/4));
+}
+
+
+
+/*
+HEADER
+*/
+
+   
+.header-top  {
+    background-color: #255EE9;
+}
+.header-top .container-row > * {
+    padding: 10px; 
+    color: white;
+}
+
+.header-top .container-row > .link-container nav ul {
+    display:flex; 
+    list-style: none;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.header-top .container-row > .login-container {
+    text-align: right; 
+}
+.header-top .container-row > .login-container a {
+    text-align: right; 
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px 5px;
+    text-decoration: none;
+}
+.header-bottom {
+    padding: 50px;
+    background-image:url(../img/jumbo.png);
+    background-size: cover;
+}
+
+.header-bottom .bottone {
+    display: inline-block;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 40px;
+    
+}
+.header-bottom .nero {
+    background-color:black;
+    color: white;
+}
+.header-bottom .finestra {
+    text-align: center;
+}
+.header-bottom .finestra > * {
+    margin: 10px 10px;
+    color: white;
+}
+
+
+
+/*
+MAIN
+*/
+.main-container-row {
+    padding: 40px 0;
+}
+.gray{
+    background-color: gray;
+}
+/*
+FOOTER
+*/
+
+footer{
+    background-color: black;
+}
+.footer-top {
+    padding: 40px 0;
+}
+.footer-bottom .finale {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+/*
+DEBUG
+*/
+
+
+.debug .header-top {
+    
+    height: 60px;
+    padding-top: 10px 0;
+}
+
+
+
+.debug .header-top .riga {
+    background-color: orange;
+}
+
+.debug .header-top .riga > * {
+    border: 1px dashed black;
+}
+
+
+
+.debug .header-bottom {
+    background-color: blue;
+    min-width: 600px;
+}
+
+.debug .header-bottom .finestra {
+    background-color: fuchsia;
+    border: 1px dashed black;
+    min-height: 500px ;
+}
+
+.debug main .container .riga .collonna-4 {
+    background-color:aqua;
+    border: 1px dashed black;
+    min-height: 400px;
+
+}
+.debug main .container .riga .collonna-5 {
+    background-color: pink;
+    border: 1px dashed black;
+    min-height: 400px;
+
+}
+.debug main .container .riga .collonna-6 {
+    background-color: pink;
+    border: 1px dashed black;
+    min-height: 400px;
+
+}
+.debug main .container .riga .collonna-7 {
+    background-color: aqua;
+    border: 1px dashed black;
+    min-height: 400px;
+
+}
+.debug main .container .riga .collonna-8 {
+    background-color: aqua;
+    border: 1px dashed black;
+    min-height: 400px;
+
+}
+.debug main .container .riga .collonna-9 {
+    background-color: pink;
+    border: 1px dashed black;
+    min-height: 400px;
+
+}
+.debug main section .green {
+    background-color: green;
+    border: 1px dashed black;
+    min-height: 400px;
+    
+}
+.debug .prima-parte { 
+    background-color: red;
+}
+
+.debug .prima-parte > * {
+    border: 1px dashed black;
+    min-height: 400px;
+}
+.debug .seconda-parte { 
+    background-color: blue;
+}
+
+.debug .seconda-parte > * {
+    border: 1px dashed white;
+    min-height: 400px;
+}
+.debug .finale  {
+background-color: aquamarine;
+
+}
+.debug .finale > *  {
+    background-color: pink;
+    border: 1px dashed black;
+    padding: 10px;
+    }
