@@ -164,6 +164,23 @@ footer{
     justify-content: space-between;
     padding: 30px 0;
 }
+footer .footer-top ul {
+   list-style: none;
+   color: white;
+   
+}
+footer .footer-top ul > * {
+    margin: 15px 0;
+}
+.footer-bottom .bottone {
+    display: inline-block;
+    padding: 20px;
+    background-color: azure;
+    color: white;
+    border-radius: 40px;
+    
+}
+
 
 /*
 DEBUG
