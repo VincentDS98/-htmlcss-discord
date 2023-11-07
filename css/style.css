@@ -61,7 +61,9 @@ margin: 0 auto;
 .collonna-12 {
     width: calc((100%/4));
 }
-
+h5{
+    margin-top: 20px;
+}
 
 
 /*
@@ -124,12 +126,29 @@ HEADER
 /*
 MAIN
 */
+main img {
+    max-width: 100%;
+}
 .main-container-row {
     padding: 40px 0;
 }
 .gray{
     background-color: gray;
 }
+main .container .testo {
+    
+    text-align: center;
+}
+main .bottone {
+    display: inline-block;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 40px;
+    margin-top: 25px;
+    
+}
+
 /*
 FOOTER
 */
